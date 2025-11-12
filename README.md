@@ -6,3 +6,6 @@
     rem:this unit is relative to the font size of the root HTML element.
     %:this unit is realtive to the font size of the parent element.
     smaller and larger:these units adjust the font size relative to the parent element.
+                                          <!-- internal>external(id>class) -->
+
+
