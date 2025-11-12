@@ -1,4 +1,4 @@
-/* h1{
+h1{
     color: purple;
 }
 
@@ -6,9 +6,13 @@ h2{
     color:blue;
 }
 p{
-    color:black;
+    color:brown;
     font-size: 25px;
+    margin-left: 10px;
     text-align: left;
+}
+#abc{
+    margin-left: 150px;
 }
 .par{
     color:red;
@@ -27,7 +31,3 @@ div{
     align-content:center;
     border: 5px solid black;
 }
-
- */
-
- 
