@@ -31,15 +31,15 @@ div{
     align-content:center;
     border: 5px solid black;
 } */
-.container{
+/* .container{
     display: flex;
     height: 600px;
     width: 1500px;
     border: 1px solid black;
     background-color: aqua;
-    /* flex-direction: column-reverse; */
+    flex-direction: column-reverse;
     flex-wrap: wrap;
-    /* justify-content: space-between;  */
+    justify-content: space-between; 
     align-items: stretch;
     align-content: start;
     gap: 10px;
@@ -57,4 +57,40 @@ div{
 .item2{
     order: -1;
     align-self: flex-end;
+} */
+
+.container{
+    display: grid;  
+    height: 500px;
+    width: 1000px;
+    background-color: #50CCFF;
+    border: 2px solid rgb(0, 0, 0);
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: repeat(3,1fr);
+    /* grid-template-areas: "header header header header" "main main . sidebar" "footer footer footer footer"; */
+    justify-items: center;
+    align-items: center;
+
+
 }
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: #2BD518;
+    align-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: solid 1px black;
+}
+/* .item1{
+    grid-area:header;
+}
+.item2{
+    grid-area:main;
+}
+.item3{
+    grid-area:sidebar;
+}
+.item4{
+    grid-area:footer ;
+}*/
