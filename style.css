@@ -131,7 +131,7 @@ nav ul{
 .hamburger{display: block;}
 @media(min-width:768px){
     .menu{display: flex;}
-    .hamburger{display: none;}
+    /* .hamburger{display: none;} */
 }
 nav{
     display: flex;
